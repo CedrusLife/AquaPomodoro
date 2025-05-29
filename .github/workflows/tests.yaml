@@ -1,0 +1,29 @@
+name: Continuous Integration
+
+on: pull_request
+
+jobs:
+  continuous-integration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Using Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 23
+          cache: yarn
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name:Build project
+        run: yarn build
+
+      - name: Run tests
+        run: yarn test
+      
+      - name: Run tests with coverage trashold
+        run: yarn test --coverage
+
+      - name: Report security vulnerabilities      
+        run: yarn audit
