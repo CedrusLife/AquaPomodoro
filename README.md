@@ -1,54 +1,34 @@
-# React + TypeScript + Vite
+# AquaPomodoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**AquaPomodoro** é um app que combina a técnica Pomodoro com lembretes de hidratação. Foque melhor, descanse corretamente e mantenha-se hidratado durante o dia.
 
-Currently, two official plugins are available:
+## 🧠 Ideia
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ciclos Pomodoro personalizáveis.
+- Lembretes de hidratação visuais e sonoros.
+- Registro do consumo de água.
+- Metas diárias de água.
+- Dashboard com estatísticas.
+- Login para salvar preferências e progresso.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias
+- [React](https://reactjs.org)
+- [Vite](https://vitejs.dev)
+- [TypeScript](https://www.typescriptlang.org)
+- [TailwindCSS](https://tailwindcss.com)
+- [Vitest](https://vitest.dev) + [Testing Library](https://testing-library.com)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🧪 Como rodar localmente
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/aqua-pomodoro.git
+cd aqua-pomodoro
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+# Instale as dependências
+yarn
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+# Rode em modo desenvolvimento
+yarn dev
