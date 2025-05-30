@@ -624,6 +624,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@phosphor-icons/react@^2.1.10":
+  version "2.1.10"
+  resolved "https://registry.yarnpkg.com/@phosphor-icons/react/-/react-2.1.10.tgz#3a97ec5b7a4b8d53afeb29125bc17e74ed2daf92"
+  integrity sha512-vt8Tvq8GLjheAZZYa+YG/pW7HDbov8El/MANW8pOAz4eGxrwhnbfrQZq0Cp4q8zBEu8NIhHdnr+r8thnfRSNYA==
+
 "@pkgjs/parseargs@^0.11.0":
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
@@ -1480,6 +1485,11 @@ ci-info@^3.2.0:
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-3.9.0.tgz#4279a62028a7b1f262f3473fc9605f5e218c59b4"
   integrity sha512-NIxF55hv4nSqQswkAeiOi1r83xy8JldOFDTWiug55KBu9Jnblncd2U6ViHmYgHf01TPZS77NJBhBMKdWj9HQMQ==
 
+clsx@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/clsx/-/clsx-2.1.1.tgz#eed397c9fd8bd882bfb18deab7102049a2f32999"
+  integrity sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==
+
 color-convert@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/color-convert/-/color-convert-2.0.1.tgz"
@@ -1506,6 +1516,11 @@ convert-source-map@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz"
   integrity sha512-Kvp459HrV2FEJ1CAsi1Ku+MY3kasH19TFykTz2xWmMeq6bk2NU3XXvfJ+Q61m0xktWwt+1HSYf3JZsTms3aRJg==
+
+cookie@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/cookie/-/cookie-1.0.2.tgz#27360701532116bd3f1f9416929d176afe1e4610"
+  integrity sha512-9Kr/j4O16ISv8zBBhJoi4bXOYNTkFLOqSL3UDB0njXxCXNezjeyVrJyGOWtgfs/q2km1gwBcfH8q1yEGoMYunA==
 
 cross-spawn@^7.0.6:
   version "7.0.6"
@@ -2111,6 +2126,15 @@ foreground-child@^3.1.0:
   dependencies:
     cross-spawn "^7.0.6"
     signal-exit "^4.0.1"
+
+framer-motion@^12.15.0:
+  version "12.15.0"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.15.0.tgz#6892283fc7967b071f537d6d160ab49e3d5e73ae"
+  integrity sha512-XKg/LnKExdLGugZrDILV7jZjI599785lDIJZLxMiiIFidCsy0a4R2ZEf+Izm67zyOuJgQYTHOmodi7igQsw3vg==
+  dependencies:
+    motion-dom "^12.15.0"
+    motion-utils "^12.12.1"
+    tslib "^2.4.0"
 
 fsevents@~2.3.2, fsevents@~2.3.3:
   version "2.3.3"
@@ -2951,6 +2975,18 @@ mkdirp@^3.0.1:
   resolved "https://registry.npmjs.org/mkdirp/-/mkdirp-3.0.1.tgz"
   integrity sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==
 
+motion-dom@^12.15.0:
+  version "12.15.0"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.15.0.tgz#eca7c9d8c28976b8c920f175f92d5288f5a17785"
+  integrity sha512-D2ldJgor+2vdcrDtKJw48k3OddXiZN1dDLLWrS8kiHzQdYVruh0IoTwbJBslrnTXIPgFED7PBN2Zbwl7rNqnhA==
+  dependencies:
+    motion-utils "^12.12.1"
+
+motion-utils@^12.12.1:
+  version "12.12.1"
+  resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.12.1.tgz#63e28751325cb9d1cd684f3c273a570022b0010e"
+  integrity sha512-f9qiqUHm7hWSLlNW8gS9pisnsN7CRFRD58vNjptKdsqFLpkVnX00TNeD6Q0d27V9KzT7ySFyK1TZ/DShfVOv6w==
+
 ms@^2.1.3:
   version "2.1.3"
   resolved "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
@@ -3228,6 +3264,21 @@ react-refresh@^0.17.0:
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.17.0.tgz"
   integrity sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==
 
+react-router-dom@^7.6.1:
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-7.6.1.tgz#263c9102e96b58d336258a51d68080b40c28f526"
+  integrity sha512-vxU7ei//UfPYQ3iZvHuO1D/5fX3/JOqhNTbRR+WjSBWxf9bIvpWK+ftjmdfJHzPOuMQKe2fiEdG+dZX6E8uUpA==
+  dependencies:
+    react-router "7.6.1"
+
+react-router@7.6.1:
+  version "7.6.1"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-7.6.1.tgz#a54f9b980b94594bcb4b7f26611612a9f6e17461"
+  integrity sha512-hPJXXxHJZEsPFNVbtATH7+MMX43UDeOauz+EAU4cgqTn7ojdI9qQORqS8Z0qmDlL1TclO/6jLRYUEtbWidtdHQ==
+  dependencies:
+    cookie "^1.0.1"
+    set-cookie-parser "^2.6.0"
+
 react@^19.1.0:
   version "19.1.0"
   resolved "https://registry.npmjs.org/react/-/react-19.1.0.tgz"
@@ -3381,6 +3432,11 @@ semver@^7.5.3, semver@^7.6.0:
   version "7.7.2"
   resolved "https://registry.npmjs.org/semver/-/semver-7.7.2.tgz"
   integrity sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==
+
+set-cookie-parser@^2.6.0:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/set-cookie-parser/-/set-cookie-parser-2.7.1.tgz#3016f150072202dfbe90fadee053573cc89d2943"
+  integrity sha512-IOc8uWeOZgnb3ptbCURJWNjWUPcO3ZnTTdzsurqERrP6nPyv+paC55vJM0LpOlT2ne+Ix+9+CRG1MNLlyZ4GjQ==
 
 set-function-length@^1.2.2:
   version "1.2.2"
@@ -3645,6 +3701,11 @@ symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
   integrity sha512-9QNk5KwDF+Bvz+PyObkmSYjI5ksVUYtjW7AU22r2NKcfLJcXp96hkDWU3+XndOsUb+AQ9QhfzfCT2O+CNWT5Tw==
+
+tailwind-merge@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/tailwind-merge/-/tailwind-merge-3.3.0.tgz#d9bb4f298801ef6232ced4f97e830fc79bc3d3e7"
+  integrity sha512-fyW/pEfcQSiigd5SNn0nApUOxx0zB/dm6UDU/rEwc2c3sX2smWUNbapHv+QRqLGVp9GWX3THIa7MUGPo+YkDzQ==
 
 tailwindcss@4.1.8, tailwindcss@^4.1.8:
   version "4.1.8"
@@ -4053,3 +4114,8 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   integrity sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
+
+zustand@^5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-5.0.5.tgz#3e236f6a953142d975336d179bc735d97db17e84"
+  integrity sha512-mILtRfKW9xM47hqxGIxCv12gXusoY/xTSHBYApXozR0HmQv299whhBeeAcRy+KrPPybzosvJBCOmVjq6x12fCg==
