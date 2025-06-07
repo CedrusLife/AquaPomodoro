@@ -9,6 +9,7 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./src/setupTests.ts",
     coverage: {
+      all: true,
       exclude: [
         "vite.config.*",
         "eslint.config.*",

@@ -1,7 +1,13 @@
+import { Route, Routes } from "react-router-dom"
+import Pomodoro from "./pages/Pomodoro"
+import MainLayout from "./layout/MainLayout"
+
 export default function App() {
   return (
-    <>
-      <h1 className="text-blue-600">AquaPomodoro</h1>
-    </>
+    <MainLayout>
+      <Routes>
+        <Route path="/" element={<Pomodoro />} />
+      </Routes>
+    </MainLayout>
   )
 }
